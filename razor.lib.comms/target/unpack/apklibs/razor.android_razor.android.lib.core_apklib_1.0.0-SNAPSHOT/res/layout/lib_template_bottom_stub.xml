@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout 
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:layout_alignParentBottom="true"  	    
+    >	    
+	  <ViewStub 
+	      android:id="@+id/lib_template_bottom_stub"
+	      android:inflatedId="@+id/lib_template_bottom_content"
+	      android:layout="@layout/lib_blank_stub"
+	  	  android:layout_width="wrap_content"
+	  	  android:layout_height="wrap_content"      
+	  />	
+</LinearLayout>  

@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+ 	>   
+    <LinearLayout
+        android:id="@+id/lib_two_button_template_content"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:layout_above="@+id/lib_two_button_button_container" 
+        >
+    </LinearLayout> 
+	<LinearLayout
+	    android:id="@+id/lib_two_button_button_container"
+	    android:layout_width="match_parent"
+	    android:layout_height="wrap_content"
+	    android:layout_alignParentBottom="true"
+	    android:orientation="horizontal" 
+	    android:background="#eee"
+	    
+	    >
+		<TextView
+		    android:id="@+id/lib_two_button_template_action_cancel"
+      		android:layout_width="0px"
+			android:layout_height="wrap_content"
+			android:text="Cancel"
+			style="@style/button_text"
+			android:layout_weight=".5"
+			/>      				
+	
+		<TextView
+		    android:id="@+id/lib_two_button_template_action_commit"
+	      		android:layout_width="0px"
+			android:layout_height="wrap_content"
+			style="@style/button_text"
+			android:text="Commit"
+			android:layout_weight=".5"
+			/> 	    
+	</LinearLayout>
+</RelativeLayout>

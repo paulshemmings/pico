@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="hello">Hello World, Activity!</string>
+    <string name="app_name">Pico</string>
+    
+    <string name="resized_image_height">400</string>
+    <string name="marker_image_height">100</string>
+    <string name="maximum_map_zoom">10</string>
+    
+    <string name="menu_satelite">Satelite</string>
+    <string name="menu_normal">Normal</string>
+    <string name="menu_hybrid">Hybrid</string>
+    
+    <string name="menu_add_event">Add Event</string> 
+    <string name="menu_refresh_events">Refresh Events</string> 
+    <string name="menu_list_events">List Events</string> 
+    <string name="menu_center_on_events">Center on Events</string>
+    
+    
+    <string name="upload_event_title">a title for the event</string>
+    <string name="upload_event_tags">what type of event is it?</string>
+
+</resources>

@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    style="@style/razor_blue"
+    >
+
+    <EditText
+        android:id="@+id/upload_event_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10" 
+        android:hint="@string/upload_event_title"
+        android:textColor="#111"
+        />
+    
+
+    <EditText
+        android:id="@+id/upload_event_tags"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10" 
+        android:hint="@string/upload_event_tags"
+        android:textColor="#111"
+        />
+    
+    <ImageView
+        android:id="@+id/upload_event_image_view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:src="@drawable/lib_image_placeholder"
+        android:visibility="visible" 
+        />    
+
+</LinearLayout>

@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout 
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    >
+    
+	<LinearLayout 
+	    android:orientation="vertical"
+	    android:layout_width="fill_parent"
+	    android:layout_height="wrap_content"
+	    android:id="@+id/exercise_list_top_row"  	    
+	    >
+	    
+		<TextView 
+		    android:id="@+id/expandable_list_explanation"
+			android:layout_width="fill_parent"
+			android:layout_height="wrap_content"
+			android:text="explanatory text"
+			android:textColor="#fff"
+			android:gravity="center"
+	        android:textSize="18sp"
+	        android:background="#000"		
+		/>	    
+		
+		<View   
+	    	android:id="@+id/firstDivider"
+	        android:layout_height="1dp"
+	        android:layout_width="fill_parent"
+	        android:background="#333" 
+	        android:layout_marginTop="0dp"
+	        android:layout_marginBottom="0dp"
+	    /> 		
+
+		<include
+		    android:id="@+id/expandable_list_main_header"
+		    android:layout_width="wrap_content"
+		    android:layout_height="wrap_content"
+		    layout="@layout/lib_header_title_with_button" 
+		/>
+   	     	  
+		<include
+		    android:id="@+id/expandable_list_sub_header"
+		    android:layout_width="wrap_content"
+		    android:layout_height="wrap_content"
+		    layout="@layout/lib_header_title_with_button" 
+		/>
+				
+	</LinearLayout>   
+	 
+	<LinearLayout 
+	    android:orientation="vertical"
+	    android:layout_width="fill_parent"
+	    android:layout_height="wrap_content"
+	    android:id="@+id/exercise_list_bottom_row"
+
+	    >  			
+	    	
+		<ExpandableListView 
+		    android:id="@+id/expandable_list"
+		    android:layout_width="fill_parent"
+		    android:layout_height="wrap_content"
+		/>
+		
+	</LinearLayout>
+    
+</LinearLayout>

@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    style="@style/razor_blue"
+ 	>   
+    <LinearLayout
+        android:id="@+id/lib_three_button_template_content"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:layout_above="@+id/lib_three_button_button_container" 
+        >
+    </LinearLayout> 
+	<LinearLayout
+	    android:id="@+id/lib_three_button_button_container"
+	    android:layout_width="match_parent"
+	    android:layout_height="wrap_content"
+	    android:layout_alignParentBottom="true"
+	    android:orientation="horizontal" 
+	    > 									
+	
+		<TextView
+		    android:id="@+id/lib_three_button_template_action_negative"
+	      	android:layout_width="0px"
+			android:layout_height="wrap_content"
+			style="@style/button_text"
+			android:layout_weight=".3"
+			android:text="Negative"
+			android:background="@drawable/lib_rectangle_default_selector"
+			/>
+
+		<TextView
+		    android:id="@+id/lib_three_button_template_action_neutral"
+      		android:layout_width="0px"
+			android:layout_height="wrap_content"
+			android:text="Neutral"
+			android:layout_weight=".3"
+			style="@style/button_text"
+			android:background="@drawable/lib_rectangle_default_selector"
+			/>   
+			
+		<TextView
+		    android:id="@+id/lib_three_button_template_action_positive"
+      		android:layout_width="0px"
+			android:layout_height="wrap_content"
+			android:text="Positive"
+			android:layout_weight=".3"
+			style="@style/button_text"
+			android:background="@drawable/lib_rectangle_default_selector"
+			/>
+		  
+	</LinearLayout>
+</RelativeLayout>

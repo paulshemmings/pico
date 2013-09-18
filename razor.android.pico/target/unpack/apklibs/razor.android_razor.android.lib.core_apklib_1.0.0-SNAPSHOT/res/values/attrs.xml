@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+      <declare-styleable name="FontTextView">
+        <attr name="connectFont" format="string">
+            <!--
+		    <enum name="font_georgia_bold_italic" value="1" />
+		    <enum name="font_georgia_bold" value="2" />
+		    <enum name="font_georgia_italic" value="3" />
+		    <enum name="font_georgia" value="4" />
+		    <enum name="font_lucida_grande" value="5" />
+		     -->            
+        </attr>
+        <attr name="htmlText" format="string">            
+        </attr>
+    </declare-styleable>  
+</resources>

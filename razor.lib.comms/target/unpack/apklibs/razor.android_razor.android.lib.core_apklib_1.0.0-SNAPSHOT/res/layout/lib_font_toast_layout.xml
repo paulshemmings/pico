@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout 
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    android:background="#000"
+    android:id="@+id/lib_font_toast_layout_root"
+    >
+    
+    <com.bbconnect.lib.widgets.FontTextView 
+	    android:id="@+id/lib_font_toast_message"
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	    android:layout_weight="1"
+	    android:textColor="#fff"
+	    android:shadowColor="#BB000000"
+	    android:shadowRadius="2.75"
+      	connectFont="font_georgia_italic"
+      	style="@style/razor_toast_text"
+      	android:padding="20dp"
+      	/>
+    
+</LinearLayout>

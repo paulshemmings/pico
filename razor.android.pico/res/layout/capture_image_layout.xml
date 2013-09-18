@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" 
+    >
+
+    <Button
+        android:id="@+id/front_page_take_photo_action"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="take photo" 
+        />  
+        
+    <Button
+        android:id="@+id/list_local_events"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="list local events" 
+        />      
+        
+    <Button
+        android:id="@+id/show_local_events"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="show local events" 
+        />  
+        
+    <ImageView
+        android:id="@+id/capture_image_image_view"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/lib_red_map_marker"
+        />    
+
+</LinearLayout>

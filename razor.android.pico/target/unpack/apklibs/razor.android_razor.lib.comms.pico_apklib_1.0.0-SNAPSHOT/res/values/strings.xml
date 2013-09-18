@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="coreRestUrl">http://razorphototracker.appspot.com</string>
+    <string name="storeEventRequest">/event/store</string>
+    <string name="listEventsRequest">/event/list</string>
+    <string name="loadPhotoRequest">/photo/view</string>
+</resources>
